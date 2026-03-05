@@ -1,0 +1,99 @@
+/* src/assets/css/main.css */
+
+/* Variables CSS para el tema oscuro (inspirado en el ejemplo) */
+:root {
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+
+  --clr-slate-50: #f8fafc; /* Texto muy claro */
+  --clr-slate-200: #e2e8f0; /* Texto claro */
+  --clr-slate-300: #cbd5e1; /* Texto secundario */
+  --clr-slate-400: #94a3b8; /* Texto gris */
+  --clr-slate-500: #64748b; /* Texto gris medio */
+  --clr-slate-600: #475569; /* Texto gris oscuro */
+  --clr-slate-700: #334155; /* Fondo de tarjetas/hover */
+  --clr-slate-800: #1e293b; /* Fondo principal de contenido */
+  --clr-slate-900: #0f172a; /* Fondo muy oscuro, barra lateral */
+
+  --clr-green: #64ffda; /* Color de acento verde brillante */
+}
+
+/* Base Reset & Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px; /* Base para rem */
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--clr-slate-400);
+  background-color: var(--clr-slate-900);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; /* Mejor renderizado de fuentes */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--clr-slate-200);
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  line-height: 1.2;
+}
+
+h1 { font-size: 3.5rem; line-height: 1; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.25rem; }
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--clr-green);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Utility classes */
+.container {
+  max-width: 1000px; /* Para el contenido de la derecha */
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.text-green {
+  color: var(--clr-green);
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--clr-slate-800);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--clr-slate-600);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--clr-slate-500);
+}
