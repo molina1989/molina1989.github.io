@@ -128,9 +128,9 @@ export default {
 }
 
 .profile-pic-container {
-  margin-top: 1rem;
-  width: 175px;
-  height: 175px;
+  //margin-top: 1rem;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid var(--clr-green);
