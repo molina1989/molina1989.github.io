@@ -37,7 +37,7 @@ export default {
     // Simular tiempo de carga. En una app real, esperarías a que los datos estén listos.
     setTimeout(() => {
       this.isLoading = false;
-    }, 3000); // 3 segundos de loader
+    }, 5000); // 5 segundos de loader
   }
 };
 </script>
