@@ -31,7 +31,7 @@
         </a>
       </div>
       <div class="external-links">
-        <a v-for="link in personalInfo.externalLinks" :key="link.name" :href="link.url" :target="link.url.startsWith('/') ? '_self' : '_blank'" :aria-label="link.name">
+        <a v-for="link in personalInfo.socialLinks" :key="link.name" :href="link.url" :target="link.url.startsWith('/') ? '_self' : '_blank'" :aria-label="link.name">
           <font-awesome-icon :icon="link.icon" /> {{ link.name }}
         </a>
       </div>

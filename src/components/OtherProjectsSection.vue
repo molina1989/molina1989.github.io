@@ -22,7 +22,7 @@
     </div>
 
     <div class="text-center mt-5">
-      <a href="https://github.com/janedoe?tab=repositories" target="_blank" class="btn-primary-styled">Ver más en GitHub <i class="fas fa-arrow-right"></i></a>
+      <a :href="github" target="_blank" class="btn-primary-styled">Ver más en GitHub <i class="fas fa-arrow-right"></i></a>
     </div>
   </section>
 </template>
@@ -34,7 +34,8 @@ export default {
   name: 'OtherProjectsSection',
   data() {
     return {
-      otherProjects: otherProjects
+      otherProjects: otherProjects,
+      github: 'https://github.com/molina1989?tab=repositories'
     };
   }
 };
