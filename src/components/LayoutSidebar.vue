@@ -3,7 +3,7 @@
     <div class="header-section">
       <h1 class="name">{{ personalInfo.name }}</h1>
       <p class="title">{{ personalInfo.title }}</p>
-      <p class="specialty">{{ personalInfo.specialty }}</p>
+   
       <div style="display:flex; justify-content:center;">
         <div class="profile-pic-container">
           <img :src="profilePicUrl" :alt="personalInfo.name" class="profile-pic"> 

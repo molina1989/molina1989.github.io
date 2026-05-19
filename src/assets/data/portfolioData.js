@@ -43,25 +43,26 @@ Soy un Ingeniero de Desarrollo con más de una década de experiencia comprobada
 export const experience = [
   {
     id: 1,
-    company: 'Innovate Solutions Inc.',
-    position: 'Desarrollador Lead Full Stack',
-    period: 'Enero 2022 - Presente',
+    company: 'Addiuva, Uruguay.',
+    position: 'ADMINISTRADOR DE BASE DE DATOS Y SISTEMAS',
+    period: 'Mayo 2021 - Presente',
     description: `
       Lideré un equipo de 4 desarrolladores en el diseño, desarrollo y despliegue de una plataforma SaaS para la gestión de proyectos.
       <br>
       Implementé una arquitectura de microservicios con Docker y Kubernetes, mejorando la escalabilidad del sistema en un 40%.
       <br>
-      Optimicé consultas de base de datos PostgreSQL, resultando en una reducción del 30% en los tiempos de respuesta.
+      Optimicé consultas de base de datos MySQL, resultando en una reducción del 30% en los tiempos de respuesta.
       <br>
       Introduje metodologías Agile/Scrum, incrementando la eficiencia del equipo en un 25%.
     `,
-    technologies: ['PHP', 'Laravel', 'Vue.js', 'PostgreSQL', 'Docker', 'Kubernetes', 'AWS', 'API REST']
+    technologies: ['PHP', 'Laravel', 'Vue.js', 'JavaScript', 'TypeScript', 'Jquery', 'Npm', 'Composer', 'Mysql', 'Docker', 'API REST', 'Asterisk', 'Ssh', 
+      'Shell Scripting', 'Bash', 'Vicidial', 'Git', 'CI/CD', 'Endian', 'Nginx', 'Linux']
   },
   {
     id: 2,
-    company: 'Digital Builders Co.',
-    position: 'Ingeniero de Software Senior',
-    period: 'Julio 2019 - Diciembre 2021',
+    company: 'Interfell',
+    position: 'Desarrollador frontend',
+    period: 'Mayo 2022 - Mayo 2023',
     description: `
       Desarrollé y mantuve el backend de una aplicación de e-commerce de alto tráfico utilizando Python (Django) y MySQL.
       <br>
@@ -69,13 +70,13 @@ export const experience = [
       <br>
       Refactoricé código legado para mejorar la mantenibilidad y el rendimiento del sistema.
     `,
-    technologies: ['Python', 'Django', 'MySQL', 'JavaScript', 'AWS S3', 'Git', 'CI/CD']
+    technologies: ['Angular', 'JavaScript', 'TypeScript', 'API REST', 'C#', 'Sql server', 'Npm', 'Git', 'Trello', 'CI/CD', 'Linux']
   },
   {
     id: 3,
-    company: 'StartupTech Labs',
-    position: 'Desarrollador Junior',
-    period: 'Enero 2018 - Junio 2019',
+    company: 'Interamerican Assist (Addiuva), Uruguay',
+    position: 'ADMINISTRADOR DE BASE DE DATOS Y SISTEMAS',
+    period: 'Octubre 2018 - Mayo 2021',
     description: `
       Participé en el desarrollo frontend con JavaScript y jQuery para un sistema de gestión de contenidos.
       <br>
@@ -83,8 +84,82 @@ export const experience = [
       <br>
       Aprendí y apliqué buenas prácticas de desarrollo y control de versiones con Git.
     `,
-    technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'PHP', 'WordPress', 'Git']
+    technologies: ['PHP', 'Laravel', 'Vue.js', 'JavaScript', 'TypeScript', 'Jquery', 'Npm', 'Composer', 'Mysql', 'Docker', 'API REST', 'Asterisk', 'Ssh', 
+      'Shell Scripting', 'Bash', 'Vicidial', 'Git', 'CI/CD', 'Endian', 'Nginx', 'Linux']
+  },
+  {
+    id: 4,
+    company: 'Clientify, España',
+    position: 'DESARROLLADOR FULL-STACK',
+    period: 'Enero 2021 - Marzo 2021',
+    description: `
+      Participé en el desarrollo frontend con JavaScript y jQuery para un sistema de gestión de contenidos.
+      <br>
+      Colaboré en la creación de componentes reutilizables con Vanilla JS.
+      <br>
+      Aprendí y apliqué buenas prácticas de desarrollo y control de versiones con Git.
+    `,
+    technologies: [ 'Mysql', 'Python', 'API REST', 'Django', 'JavaScript', 'jQuery' ,'Git', 'CI/CD', 'Linux']
+  },
+  {
+    id: 5,
+    company: 'Woonder Moon Inc, Panama',
+    position: 'DESARROLLADOR DE SOFTWARE',
+    period: 'Enero 2017 - Marzo 2017',
+    description: `
+      Participé en el desarrollo frontend con JavaScript y jQuery para un sistema de gestión de contenidos.
+      <br>
+      Colaboré en la creación de componentes reutilizables con Vanilla JS.
+      <br>
+      Aprendí y apliqué buenas prácticas de desarrollo y control de versiones con Git.
+    `,
+    technologies: ['JavaScript', 'Angular', 'Node.js', 'Express', 'Mysql', 'API REST', 'Git', 'CI/CD', 'Nginx', 'Linux']
+  },
+  {
+    id: 6,
+    company: 'GMT PRIME CORP, España',
+    position: 'DESARROLLADOR FULL- STACK',
+    period: 'Junio 2017 - Julio 2018',
+    description: `
+      Participé en el desarrollo frontend con JavaScript y jQuery para un sistema de gestión de contenidos.
+      <br>
+      Colaboré en la creación de componentes reutilizables con Vanilla JS.
+      <br>
+      Aprendí y apliqué buenas prácticas de desarrollo y control de versiones con Git.
+    `,
+    technologies: ['React', 'JavaScript', 'Python', 'Django',  'API REST', 'Git', 'CI/CD', 'Bitbucket', 'Nginx', 'Linux']
+  },
+  {
+    id: 7,
+    company: 'Techmnh, India',
+    position: 'DESARROLLADOR FRONTEND',
+    period: 'Enero 2017 - Marzo 2017',
+    description: `
+      Participé en el desarrollo frontend con JavaScript y jQuery para un sistema de gestión de contenidos.
+      <br>
+      Colaboré en la creación de componentes reutilizables con Vanilla JS.
+      <br>
+      Aprendí y apliqué buenas prácticas de desarrollo y control de versiones con Git.
+    `,
+    technologies: ['React', 'JavaScript', 'Git', 'GitHub', 'Linux']
+  },
+  {
+    id: 8,
+    company: 'Empresa Socialista de Capital Mixto Guardian del Alba S.A, Venezuela.',
+    position: 'DESARROLLADOR FULL STACK',
+    period: 'Octubre 2012 - Febrero 2018',
+    description: `
+      Participé en el desarrollo frontend con JavaScript y jQuery para un sistema de gestión de contenidos.
+      <br>
+      Colaboré en la creación de componentes reutilizables con Vanilla JS.
+      <br>
+      Aprendí y apliqué buenas prácticas de desarrollo y control de versiones con Git.
+    `,
+    technologies: ['Python', 'Odoo', 'PHP', 'Laravel', 'JavaScript', 'Qooxdoo', 'Jquery', 'Codeigniter', 'Symphony', 'Mysql', 'Docker', 'API REST', 'Ssh', 
+      'Shell Scripting', 'Bash', 'Git', 'GitLab', 'Svn', 'CI/CD', 'Nginx', 'Linux']
   }
+
+
 ];
 
 export const featuredProjects = [
@@ -152,14 +227,17 @@ export const skills = [
   },
   { 
     category: 'Frameworks Backend', 
-    items: [{name: 'Laravel', icon: ['fab', 'laravel']}, {name: 'Django', icon: ['fab', 'python']}] 
+    items: [{name: 'Laravel', icon: ['fab', 'laravel']}, {name: 'Django', icon: ['fab', 'python']},
+      {name: 'Express.js', icon: ['fab', 'express']}, {name: 'Sail.js', icon: ['fab', 'sail']}, {name: 'Nodejs', icon: ['fab', 'node']}
+    ] 
   },
   { 
     category: 'Frameworks Frontend', 
     items: [
       {name: 'React', icon: ['fab', 'react']},
       {name: 'Vue.js', icon: ['fab', 'vuejs']}, 
-      {name: 'Angular', icon: ['fab', 'react']},
+      {name: 'Angular', icon: ['fab', 'angular']},
+      {name: 'Jquery', icon: ['fab', 'jquery']},
       {name: 'Qooxdoo', icon: ['fab', 'react']},
     ] 
   },
@@ -174,13 +252,15 @@ export const skills = [
     ] 
   },
   { 
-    category: 'Bases de Datos', items: [{name: 'MySQL', icon: ['fa', 'database']}, {name: 'PostgreSQL', icon: ['fa', 'database']}] 
+    category: 'Bases de Datos', items: [{name: 'MySQL', icon: ['fa', 'database']}, {name: 'PostgreSQL', icon: ['fa', 'database']}, {name: 'Sql Server', icon: ['fa', 'database']}] 
   },
   { 
     category: 'Herramientas & Cloud', 
     items: [
       {name: 'Git', icon: ['fab', 'git']}, {name: 'Github', icon: ['fab', 'github']}, {name: 'Gitlab', icon: ['fab', 'gitlab']}, 
-      {name: 'Bitbucket', icon: ['fab', 'bitbucket']}, {name: 'Docker', icon: ['fab', 'docker']}, {name: 'AWS', icon: ['fab', 'aws']}
+      {name: 'Bitbucket', icon: ['fab', 'bitbucket']}, {name: 'Docker', icon: ['fab', 'docker']}, {name: 'AWS', icon: ['fab', 'aws']},
+      {name: 'Npm', icon: ['fab', 'npm']}, {name: 'Composer', icon: ['fab', 'composer']}, {name: 'Pnpm', icon: ['fab', 'pnpm']},
+      {name: 'Yarn', icon: ['fab', 'yarn']}, {name: 'Pip', icon: ['fab', 'pip']}, {name: 'PyPI', icon: ['fab', 'pypi']},
     ] 
   },
   { 
