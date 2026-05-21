@@ -15,9 +15,14 @@
 //import awsLogo from '../img/aws-logo.svg';
 
 // Importa imágenes de proyectos
-//import projectEcommerce from '../img/project-ecommerce.jpg';
-//import projectTaskManager from '../img/project-taskmanager.jpg';
-//import projectDashboard from '../img/project-dashboard.jpg';
+import armadillo from '../images/portafolios/armadillo.png';
+import gascomunal from '../images/portafolios/gas-comunal.png';
+import guardianct from '../images/portafolios/guardian-ct.png';
+import gda from '../images/portafolios/guardian-de-abastecimiento.png';
+import nomina from '../images/portafolios/nomina.png';
+import scia from '../images/portafolios/scia.png';
+import sisconguard from '../images/portafolios/sisconguard.png';
+import sisplanerp from '../images/portafolios/sisplan-erp.png';
 
 
 export const personalInfo = {
@@ -171,28 +176,73 @@ export const experience = [
 export const featuredProjects = [
   {
     id: 1,
-    title: 'Plataforma de E-commerce Multi-vendor',
-    description: 'Solución completa de e-commerce con funcionalidades de múltiples vendedores, carrito de compras, sistema de pedidos y pasarelas de pago.',
-    technologies: ['Laravel', 'Vue.js', 'Tailwind CSS', 'PostgreSQL', 'Stripe', 'Redis'],
-   // image: projectEcommerce,
+    title: 'Sistema operacional - Armadillo',
+    description: 'Desarrollo full-stack de un sistema web integral diseñado para el control, inventario y seguimiento de materiales en ubicaciones geográficas de difícil acceso y conectividad limitada. El sistema optimiza la logística de recursos críticos garantizando la persistencia de datos y un rendimiento ligero.',
+    technologies: ['Php', 'Codeigniter', 'Html', 'Css', 'Bootstrap', 'JavaScript', 'Jquery', 'PostgreSQL', 'Nginx', 'Git'],
+    image: armadillo,
     github: 'https://github.com/janedoe/ecommerce-platform',
     live: 'https://ecommerce.janedoe.com'
   },
   {
     id: 2,
-    title: 'Sistema de Gestión de Proyectos con Kanban',
-    description: 'Aplicación web para la gestión de tareas y proyectos con tableros Kanban interactivos, asignación de usuarios y seguimiento de progreso.',
-    technologies: ['Django', 'React', 'DRF', 'MySQL', 'WebSockets', 'AWS EC2'],
-    //image: projectTaskManager,
+    title: 'Gas Comunal',
+    description: 'Plataforma web orientada a la gestión pública y comunitaria, diseñada para el censo, registro de usuarios y la distribución inteligente de gas doméstico. El sistema automatiza los criterios de asignación para garantizar un suministro equitativo, transparente y eficiente, reduciendo los tiempos de espera y los cuellos de botella logísticos.',
+    technologies: ['Php', 'Codeigniter', 'Html', 'Css', 'Bootstrap', 'JavaScript', 'Jquery', 'PostgreSQL', 'Nginx', 'Git'],
+    image: gascomunal,
     github: 'https://github.com/janedoe/task-manager',
     live: 'https://kanban.janedoe.com'
   },
   {
     id: 3,
-    title: 'Dashboard de Análisis de Datos en Tiempo Real',
-    description: 'Panel interactivo para visualizar métricas de negocio con gráficos dinámicos y filtros avanzados, alimentado por datos en tiempo real.',
-    technologies: ['Node.js', 'Express', 'Vue.js', 'MongoDB', 'Chart.js', 'Socket.IO'],
-   // image: projectDashboard,
+    title: 'Guardian CT',
+    description: 'Plataforma web de control logístico diseñada para el seguimiento y monitoreo de materiales de construcción a lo largo de rutas del territorio nacional. El sistema registra el paso de la carga por puntos de control estratégicos, permitiendo auditar los tiempos de traslado, mitigar riesgos de desvío y asegurar la transparencia en la cadena de suministro.',
+    technologies: ['Php', 'Codeigniter', 'Html', 'Css', 'Bootstrap', 'JavaScript', 'Jquery', 'PostgreSQL', 'Nginx', 'Git'],
+    image: guardianct,
+    github: 'https://github.com/janedoe/realtime-dashboard',
+    live: null // Sin demo en vivo por ahora
+  },
+  {
+    id: 4,
+    title: 'Guardian de abastecimiento',
+    description: 'Sistema web a gran escala diseñado para monitorear, gestionar y garantizar la distribución equitativa de productos de primera necesidad a los ciudadanos en todo el territorio nacional. La plataforma cruza datos de inventario, demografía y demanda regional para optimizar el despacho y mitigar las alertas de desabastecimiento.',
+    technologies: ['Php', 'Codeigniter', 'Html', 'Css', 'Bootstrap', 'JavaScript', 'Jquery', 'PostgreSQL', 'Nginx', 'Git'],
+    image: gda,
+    github: 'https://github.com/janedoe/realtime-dashboard',
+    live: null // Sin demo en vivo por ahora
+  },
+  {
+    id: 5,
+    title: 'Nomina GA',
+    description: 'Plataforma web empresarial desarrollada para automatizar la administración del personal, el control de incidencias y el procesamiento de la nómina de la empresa Guardián del Alba. El sistema centraliza los expedientes de los empleados, calcula asignaciones y deducciones, y gestiona el histórico de amonestaciones y reportes de pago.',
+    technologies: ['Php', 'Codeigniter', 'Html', 'Css', 'Bootstrap', 'JavaScript', 'Jquery', 'PostgreSQL', 'Nginx', 'Svn','Git'],
+    image: nomina,
+    github: 'https://github.com/janedoe/realtime-dashboard',
+    live: null // Sin demo en vivo por ahora
+  },
+  {
+    id: 6,
+    title: 'Sistema de confiabilidad de activos - Scia',
+    description: 'Plataforma analítica avanzada desarrollada para la industria petrolera de Venezuela, enfocada en la gestión de activos e ingeniería de confiabilidad. El sistema incluye módulos especializados de optimización costo-riesgo para inventarios, permitiendo predecir fallas, calcular ciclos de vida de equipos críticos y balancear los costos de almacenamiento frente al riesgo financiero de paradas operativas.',
+    technologies: ['Python', 'Qooxdoo', 'JavaScript', 'PostgreSQL', 'Chart.js', 'Svn', 'Git'],
+    image: scia,
+    github: 'https://github.com/janedoe/realtime-dashboard',
+    live: null // Sin demo en vivo por ahora
+  },
+  {
+    id: 7,
+    title: 'Sistema de control de entradas y salidas de personal - sisconguard',
+    description: 'Plataforma web de seguridad operativa diseñada para el registro, monitoreo y auditoría de las entradas y salidas del personal en tiempo real. El sistema centraliza los flujos de acceso, genera alertas ante anomalías horarias y automatiza el cálculo de horas laboradas, sirviendo como fuente de datos fiable para la gestión de asistencia.',
+    technologies: ['Php', 'Codeigniter', 'Html', 'Css', 'Bootstrap', 'JavaScript', 'Jquery', 'PostgreSQL', 'Nginx', 'Git'],
+    image: sisconguard,
+    github: 'https://github.com/janedoe/realtime-dashboard',
+    live: null // Sin demo en vivo por ahora
+  },
+  {
+    id: 8,
+    title: 'Sistema de Planificación de Recursos Empresariales (sisplan-ERP)',
+    description: 'Desarrollo e implementación de un sistema ERP basado en Odoo para la gestión integral de procesos de negocio. El proyecto incluyó el desarrollo de módulos clave como control de inventarios (stocks), auditorías operativas, nómina empresarial y la localización contable y fiscal adaptada específicamente a las normativas legales de Venezuela (retenciones, impuestos y reportes fiscales oficiales)',
+    technologies: ['Odoo 8', 'Python', 'JavaScript', 'Xml', 'PostgreSQL', 'Docker', 'Nginx', 'Git'],
+    image: sisplanerp,
     github: 'https://github.com/janedoe/realtime-dashboard',
     live: null // Sin demo en vivo por ahora
   }
@@ -201,23 +251,44 @@ export const featuredProjects = [
 export const otherProjects = [
   {
     id: 1,
-    title: 'CLI para Generación de Componentes Vue',
-    description: 'Herramienta de línea de comandos para agilizar la creación de componentes y módulos en proyectos Vue.',
-    technologies: ['Node.js', 'Commander.js'],
+    title: 'Telegram Business Bot – Asistente de Notificaciones Operativas',
+    description: 'Desarrollo de un bot automatizado para Telegram integrado con el backend del sistema, diseñado para enviar reportes operativos y financieros en tiempo real a los canales administrativos de la empresa. El bot notifica de manera proactiva el resumen de ventas diarias, alertas de bajas de usuarios o inventario, el estatus de procesos del sistema y la confirmación de correos electrónicos enviados masivamente.',
+    technologies: ['Php', 'Laravel', 'Telegram Bot API', 'Git'],
     github: 'https://github.com/janedoe/vue-cli-gen',
   },
   {
     id: 2,
     title: 'Bot de Telegram para Gestión de Eventos',
     description: 'Bot programado en Python para organizar y recordar eventos en grupos de Telegram, con integración de calendarios.',
-    technologies: ['Python', 'python-telegram-bot', 'SQLite'],
+    technologies: ['Python', 'python-telegram-bot', 'Telegram Bot API', 'SQLite'],
     github: 'https://github.com/janedoe/telegram-event-bot',
   },
   {
     id: 3,
-    title: 'Extension de Navegador para Productivity',
-    description: 'Extensión simple para Chrome/Firefox que bloquea sitios distractores y muestra un resumen de tareas pendientes.',
-    technologies: ['JavaScript', 'HTML', 'CSS', 'Web Extensions API'],
+    title: 'Vicidial Audio Sync – Script de Automatización de Infraestructura Linux',
+    description: 'Desarrollo de una solución de automatización en entorno de servidores para la migración, respaldo e intercambio masivo de grabaciones de audio entre múltiples servidores de telefonía Vicidial. El script optimiza el espacio en disco de los servidores de producción enviando las grabaciones de forma segura a servidores de almacenamiento centralizado o de respaldo, manteniendo la integridad de los datos.',
+    technologies: ['Shell Script (Bash)', 'Linux (CentOS)', 'Rsync', 'SSH/SCP', 'Crontab'],
+    github: 'https://github.com/janedoe/productivity-extension',
+  },
+  {
+    id: 4,
+    title: 'DB Backup Automatization – Script de Respaldo y Seguridad de Datos',
+    description: 'Solución automatizada a nivel de infraestructura para la creación, empaquetado y rotación de respaldos diarios de las bases de datos de todos los sistemas críticos de la empresa. El script garantiza la disponibilidad de copias de seguridad actualizadas, optimiza el espacio de almacenamiento mediante políticas de retención y asegura que los datos estén listos para una restauración rápida en caso de contingencia.',
+    technologies: ['Shell Script (Bash)', 'Linux (CentOS)', 'Rsync', 'SSH/SCP', 'MySql', 'Crontab'],
+    github: 'https://github.com/janedoe/productivity-extension',
+  },
+  {
+    id: 5,
+    title: 'BI Report Mailer – Sistema Automatizado de Reportes Ejecutivos',
+    description: 'Plataforma web y servicio automatizado desarrollado en Laravel diseñado para unificar, procesar y distribuir reportes diarios de rendimiento hacia las áreas de Gerencia, Contabilidad y Ventas. El sistema extrae métricas en tiempo real de los servidores Vicidial (llamadas diarias, tiempos de atención, estatus de ventas) y las cruza con la cartera de clientes de la empresa, despachando informes consolidados directamente a los correos electrónicos de los tomadores de decisiones.',
+    technologies: ['Laravel', 'PHP','MySQL', 'Mail Services (SMTP)', 'HTML/CSS (Email Templates)','Git', 'Linux (CentOS)'],
+    github: 'https://github.com/janedoe/productivity-extension',
+  },
+  {
+    id: 6,
+    title: 'Core-Billing – Sistema Automatizado de Procesamiento de Cobros TDC',
+    description: 'Solución web desarrollada en Laravel para la automatización del proceso mensual de facturación y cobro recurrente a clientes abonados a través de Tarjetas de Crédito (Visa y Mastercard). El sistema unifica la cartera de clientes, calcula los montos correspondientes y genera de forma masiva los archivos de conciliación bancaria bajo los estándares requeridos por los procesadores de pago, garantizando la seguridad y precisión de las transacciones.',
+    technologies: ['Laravel', 'PHP', 'Ssh', 'Vuejs', 'JavaScript', 'MySQL', 'Mail Services (SMTP)', 'HTML/CSS (Email Templates)','Git', 'Linux (CentOS)'],
     github: 'https://github.com/janedoe/productivity-extension',
   }
 ];
